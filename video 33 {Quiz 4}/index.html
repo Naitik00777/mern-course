@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ 4 (Multi color nav)</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        /* :root{
+            --primarycolor:rgb(69, 179, 59) ;
+            --textcolor: white;
+            --seccolor: rgb(122, 211, 171);
+        } */
+        :root{
+            --primarycolor:rgb(154, 124, 54);
+            --seccolor:rgb(88, 60, 17);
+            --textcolor:rgb(255, 255, 255);
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'poppins' sans-serif;
+
+        }
+        body{
+            background-color: var(--seccolor);
+        }
+        nav{
+            background-color: var(--primarycolor);
+            padding: 23px 0;
+            margin: 10px;
+        }
+        ul li{
+            display: inline;
+            list-style: none;
+            padding: 23px;
+            font-weight: bolder;
+        }
+        ul li a{
+            color: var(--textcolor);
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact us</a></li>
+            <li><a href="/">Services</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
